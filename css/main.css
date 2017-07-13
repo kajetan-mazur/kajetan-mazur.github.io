@@ -1,0 +1,38 @@
+html {
+  text-align: center;
+}
+
+button#btnAddActivity {
+  background-color: blue;
+  border: 1px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+label#label {
+  font-size: 26px;
+  background-color: yellow;
+}
+
+form#form {
+  margin-top: 50px;
+}
+
+input#divFormInput {
+  width: 350px;
+}
+
+button#divFormSubmit {
+  background-color: green;
+  border: 1px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 8px;
+  padding: 15px;
+}
