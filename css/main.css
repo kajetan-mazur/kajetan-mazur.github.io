@@ -1,38 +1,139 @@
-html {
+
+body {
   text-align: center;
+  color: blue;
+  background-color: #7F0000;
+  max-width: 800px;
+  margin: 10px auto;
 }
 
-button#btnAddActivity {
-  background-color: blue;
-  border: 1px;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bolder;
-  border-radius: 8px;
-  padding: 15px;
+header {
+  background-color: #DE4B39;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-label#label {
-  font-size: 26px;
-  background-color: yellow;
+header img#logo {
+  max-width: 10%;
+  height: auto;
 }
 
-form#form {
-  margin-top: 50px;
+header img#addnew {
+  max-width: 5%;
+  height: auto;
 }
 
-input#divFormInput {
-  width: 350px;
+div#newTaskData {
+  background-color: #DE4B39;
+  display: flex;
+  align-items: flex-start;
 }
 
-button#divFormSubmit {
-  background-color: green;
-  border: 1px;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bolder;
-  border-radius: 8px;
-  padding: 15px;
+#newTaskData form {
+  min-width: 40%;
+  height: auto;
+
+}
+
+#newTaskData form input{
+  min-width: 400px;
+  height: auto;
+  font-size: 20px;
+}
+
+#newTaskData form button{
+  font-size: 20px;
+}
+
+main {
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+}
+
+main nav {
+  text-align: left;
+  color: black;
+  border-right: 2px #000;
+  border-right-style: solid;
+  max-width: 130px;
+  height: auto;
+}
+
+main nav ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+main nav ul li {
+  margin-top: 35px;
+}
+
+main ul li img {
+  max-width: 25%;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+.task {
+  padding: 5px;
+  margin: 5px;
+  color: red;
+  font-size: 20px;
+}
+
+.donetask {
+  padding: 5px;
+  margin: 5px;
+  color: green;
+  font-size: 20px;
+}
+
+.removeicon {
+  max-width: 30%;
+  height: auto;
+}
+
+#dayPlan {
+  display: flex;
+  flex-direction: column;
+}
+
+#dayPlan div{
+  display: flex;
+  align-items: center;
+}
+
+input#input{
+  padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+button#btnSubmit{
+color:#08233e;
+font:1.1em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+padding:8px;
+background-color:rgba(255,204,0,1);
+border:1px solid #ffcc00;
+border-bottom:1px solid #9f9f9f;
+cursor:pointer;
+}
+
+button#btnRemove{
+  color:#08233e;
+  font:0.8em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+  padding:2px;
+  background-color:rgba(255,0,0,1);
+  border:1px solid #ffcc00;
+  border-bottom:1px solid #9f9f9f;
+  cursor:pointer;
+}
+
+#calendar {
+  background-color: white;
 }

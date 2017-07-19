@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<head>
-  <title>Todo App</title>
-  <link rel="stylesheet" href="css/main.css" />
-</head>
-<body>
-  <h1>Plan Your day</h1>
-  <div id="dayPlan"></div>
-  <button type="submit" id="btnAddActivity">Add Activity</button>
-  <div id="divForm"></div>
-  <script src="js/main.js"></script>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <header><img src="images/logo.png" id="logo"></img><div id="newTaskData" style="display:none;"><form><input class="input" placeholder="Add Note" type="text"></input><button id="submitNewNote" type="submit">Add</button></form></div><img src="images/addnew.png" id="addnew"></img></header>
+    <main>
+      <nav>
+        <ul>
+          <li>
+            <img src="images/today.jpg">Today</img>
+          </li>
+          <li>
+            <img src="images/week.jpg">This Week</img>
+          </li>
+          <li>
+            <img src="images/month.jpg">This Month</img>
+          </li>
+          <li>
+            <img src="images/projects.png">Projects</img>
+          </li>
+          <li>
+            <img src="images/settings.png">Settings</img>
+          </li>
+        </ul>
+      </nav>
+      <div id="dayPlan">
+
+      </div>
+    </main>
+    <div id="calendar">
+      <header>
+        <button id="prevMonth"><<</button>
+        <h2 id="monthYear"></h2>
+        <button id="nextMonth">>></button>
+      </header>
+    <table id="calendar-table">
+
+    </table>
+  </div>
+
+
+
+
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
